@@ -37,7 +37,7 @@ TODO: implementare una versione del'algoritmo che utilizzi un approccio basato s
 
 ## Test
 ### Casi di Test
-L'implementazione è stata testata e debuggata attraverso i [Test Pubblici](https://github.com/Megapiro/Progetto-API-2019/tree/master/Public_Tests) e valutata attraverso i [Test Privati](https://github.com/Megapiro/Progetto-API-2019/tree/master/Private_Tests) da una piattaforma apposita in grado di determinare la memoria occupata e il tempo di esecuzione del programma.
+L'implementazione è stata testata e debuggata attraverso i [Test Pubblici](https://github.com/gaggioaxel/Progetto-API-2019/tree/main/Public_Tests) e valutata attraverso i [Test Privati](https://github.com/gaggioaxel/Progetto-API-2019/tree/main/Private_Tests) da una piattaforma apposita in grado di determinare la memoria occupata e il tempo di esecuzione del programma.
 
 ### Compilazione ed Esecuzione
 Per eseguire il programma compilare il file [fileinput.c](https://github.com/gaggioaxel/Progetto-API-2019/blob/main/Source/fileinput.c) da linea di comando con i seguenti flag: 
