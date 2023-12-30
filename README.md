@@ -2,7 +2,7 @@
 
 ## Descrizione problema
 ### Introduzione
-- **Obiettivo:** Implementare efficientemente un algoritmo corretto.
+- **Tema:** Implementazione di un algoritmo che simuli il funzionamento di un social network con entità e relazioni tra di queste, in maniera corretta ed efficiente.
 
 ### Esecuzione del progetto
 - Implementazione richiesta nel linguaggio C, utilizzando esclusivamente la libreria standard (libc).
