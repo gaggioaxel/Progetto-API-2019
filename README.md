@@ -32,7 +32,7 @@ Il comando report stampa su standard output, in ordine alfabetico, tutte le rela
 - In caso di più entità con lo stesso numero massimo di relazioni ricevute, stamparle in ordine crescente di identificativo.
 
 ## Implementazione effettuata
-Ho implementato un metodo basato su Hashmap per risolvere il problema corrente, ottimizzando l'accesso e la gestione delle relazioni tra entità a discapito di un maggiore utilizzo di memoria, riallocata in maniera dinamica.
+Ho implementato un metodo basato su Hashmap e ricerca binaria per risolvere il problema corrente, ottimizzando l'accesso e la gestione delle relazioni tra entità a discapito di un maggiore utilizzo di memoria, riallocata in maniera dinamica.
 TODO: implementare una versione del'algoritmo che utilizzi un approccio basato su alberi binari per ottimizzare ulteriormente le prestazioni e ridurre l'uso di memoria.
 
 ## Test
