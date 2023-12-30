@@ -37,14 +37,15 @@ TODO: implementare una versione del'algoritmo che utilizzi un approccio basato s
 
 ## Test
 ### Casi di Test
-L'implementazione è stata testata e debuggata attraverso i [Test Pubblici](https://github.com/gaggioaxel/Progetto-API-2019/tree/main/Public_Tests) e valutata attraverso i [Test Privati](https://github.com/gaggioaxel/Progetto-API-2019/tree/main/Private_Tests) da una piattaforma apposita in grado di determinare la memoria occupata e il tempo di esecuzione del programma.
+L'implementazione è stata soggetta a diversi casi di test, sottoponendola a [Test Pubblici](https://github.com/gaggioaxel/Progetto-API-2019/tree/main/Public_Tests) e successivamente valutata attraverso [Test Privati](https://github.com/gaggioaxel/Progetto-API-2019/tree/main/Private_Tests) tramite una piattaforma specifica. Questi test sono stati progettati per verificare la corretta gestione delle relazioni tra entità, valutando la memoria occupata e il tempo di esecuzione del programma.
+
 
 ### Compilazione ed Esecuzione
-Per eseguire il programma compilare il file [fileinput.c](https://github.com/gaggioaxel/Progetto-API-2019/blob/main/Source/fileinput.c) da linea di comando con i seguenti flag: 
+Per eseguire il programma, è necessario compilare il file [fileinput.c](https://github.com/gaggioaxel/Progetto-API-2019/blob/main/Source/fileinput.c) dalla linea di comando utilizzando i seguenti flag:
 
 `gcc -Wmaybe-uninitialized -Wuninitialized -Wall -pedantic -Werror -g3 main.c -o main`
 
-Per eseguire il programma utilizzare uno degli input pubblici e verificare l'output ottenuto con il relativo output:
+Per testare il programma, è possibile eseguirlo utilizzando uno degli input pubblici disponibili e confrontare l'output prodotto con il relativo output atteso:
 
 ```
 cat input.txt | ./main > output.txt
